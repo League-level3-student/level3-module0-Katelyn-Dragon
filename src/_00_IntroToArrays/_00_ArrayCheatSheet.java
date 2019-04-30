@@ -34,7 +34,10 @@ public class _00_ArrayCheatSheet {
 		for (int i = 0; i < fifty.length; i++) {
 			fifty[i] = rand.nextInt(51);
 			for (int j = 0; j < fifty.length; j++) {
-				
+				if (j) {
+			
+				}
+				System.out.println();
 			}
 			System.out.println(fifty[i]);	
 		}
