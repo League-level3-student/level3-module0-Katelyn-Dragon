@@ -20,7 +20,7 @@ public class _00_ArrayCheatSheet {
 		// 5. use a 'for loop' to set all the elements in the array to a string of your
 		// choice
 		for (int i = 0; i < five.length; i++) {
-			five[i] = "alphabet";
+			five[i] = "letters";
 		}
 		// 6. use a 'for loop' to print all the values in the array
 		// BE SURE TO USE THE ARRAY'S length VARIABLE
@@ -33,12 +33,9 @@ public class _00_ArrayCheatSheet {
 		// 8. use a 'for loop' to make every value of the integer array a random number
 		Random rand = new Random();
 		for (int i = 0; i < fifty.length; i++) {
-			fifty[i] = rand.nextInt(51);
 			
-				System.out.println();
-			}
-			System.out.println(fifty[i]);
 		}
+		
 		// 9. without printing the entire array, print only the smallest number on the
 		// array
 

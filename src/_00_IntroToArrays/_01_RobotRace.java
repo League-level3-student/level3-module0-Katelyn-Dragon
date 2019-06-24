@@ -12,7 +12,8 @@ public class _01_RobotRace {
 		
 	}
 		//2. create an array of 5 robots.
-	Robot rob = new Robot(); 
+	Robot[] rob = new Robot[5]; 
+	
 
 		//3. use a for loop to initialize the robots.
 
