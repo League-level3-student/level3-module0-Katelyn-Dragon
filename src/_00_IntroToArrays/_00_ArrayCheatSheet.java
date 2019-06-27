@@ -31,11 +31,9 @@ public class _00_ArrayCheatSheet {
 		// 7. make an array of 50 integers
 		int[] fifty = new int[50];
 		// 8. use a 'for loop' to make every value of the integer array a random number
-		Random rand = new Random();
 		for (int i = 0; i < fifty.length; i++) {
-			
+			System.out.println(i);
 		}
-		
 		// 9. without printing the entire array, print only the smallest number on the
 		// array
 

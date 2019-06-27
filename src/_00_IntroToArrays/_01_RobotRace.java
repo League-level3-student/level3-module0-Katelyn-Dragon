@@ -8,12 +8,13 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class _01_RobotRace {
 	//1. make a main method
-	public static void main(String[] args) {
+public static void main(String[] args) {
+	Robot bot[] = new Robot[5];
+	for (int i = 0; i < args.length; i++) {
 		
 	}
+}
 		//2. create an array of 5 robots.
-	Robot[] rob = new Robot[5]; 
-	
 
 		//3. use a for loop to initialize the robots.
 
