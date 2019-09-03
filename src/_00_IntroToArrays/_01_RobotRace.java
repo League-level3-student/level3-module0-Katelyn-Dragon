@@ -10,7 +10,7 @@ public class _01_RobotRace {
 	//1. make a main method
 public static void main(String[] args) {
 	Robot bot[] = new Robot[5];
-	for (int i = 0; i < args.length; i++) {
+	for (int i = 0; i < bot.length ; i++) {
 		
 	}
 }

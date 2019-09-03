@@ -32,16 +32,29 @@ public class _00_ArrayCheatSheet {
 		int[] fifty = new int[50];
 		// 8. use a 'for loop' to make every value of the integer array a random number
 		for (int i = 0; i < fifty.length; i++) {
-		System.out.println(i);
+		fifty[i] = new Random().nextInt(50);
+		System.out.println(fifty[i]);
 		}
 		// 9. without printing the entire array, print only the smallest number on the
 		// array
-
+		int low = Integer.MAX_VALUE;
+		for (int i = 0; i < fifty.length; i++) {
+			if (fifty[i]<low) {
+				low = fifty[i];
+			}
+		}
+		System.out.println(low);
 		// 10 print the entire array to see if step 8 was correct
-
+		
 		// 11. print the largest number in the array.
-
+		int high = Integer.MIN_VALUE;
+		for (int i = 0; i < fifty.length; i++) {
+			if (fifty[i] > high) {
+				high = fifty[i];
+			}
+		}
+		System.out.println(high);
 		// 12. print only the last element in the array
-
+		System.out.println(fifty[fifty.length-1]);
 	}
 }
