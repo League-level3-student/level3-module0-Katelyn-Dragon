@@ -9,10 +9,12 @@ import org.jointheleague.graphical.robot.Robot;
 public class _01_RobotRace {
 	//1. make a main method
 public static void main(String[] args) {
+	int x = 50;
+	int y = 550;
 	Robot bot[] = new Robot[5];
-	for (int i = 0; i < bot.length; i++) {
+	for (int i = 0; i < bot.length; x += 100) {
 		bot[i] = new Robot();
-		
+		bot[i].moveTo(x, y);
 	}
 }
 		//2. create an array of 5 robots.
