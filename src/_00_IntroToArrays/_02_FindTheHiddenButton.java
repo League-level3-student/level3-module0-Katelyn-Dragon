@@ -21,13 +21,15 @@ public class _02_FindTheHiddenButton implements ActionListener{
 	
 	public static void main(String[] args) {
 		new _02_FindTheHiddenButton().start();
+		JButton button[];
+		int hiddenButton;
 	}
 	
 	public void start() {
 		window = new JFrame("Find the Button");
 		panel = new JPanel();
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		String amount = JOptionPane.showInputDialog(null, "Insert a positive number");
 		//3.  Ask the user to enter a positive number and convert it to an int
 		
 		//4. Initialize the array of JButtons to be the size of the int created in step 3

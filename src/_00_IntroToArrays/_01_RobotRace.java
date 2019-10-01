@@ -21,6 +21,7 @@ public static void main(String[] args) {
 			bot[i].move(r.nextInt(51));
 			if (bot[i].getY() <= 10) {
 				finished = true;
+				bot[i].moveTo(450,300);
 				JOptionPane.showMessageDialog(null, "congratulations!!!");
 			}
 		}
