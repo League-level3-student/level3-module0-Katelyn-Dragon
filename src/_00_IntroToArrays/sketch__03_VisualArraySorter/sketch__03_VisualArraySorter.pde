@@ -10,9 +10,7 @@ dog = new int[width];
   
   //4. initialize the ints in the array with random numbers
   //   from 0 to the built in height variable
-  for(int i = 0; i < dog.length; i++){    
-    dog[i] = (int) random(height);
-  }
+
   //5. call the noStroke() method
   noStroke();
 }
@@ -35,13 +33,24 @@ fill(236, 208, 95);
 
 
   //9. call the stepSort method
-
+  stepSort(dog);
   //10. extract the code that randomizes the array into a method.
   
 
   //11. call the method you made in step 10 when the mouse is pressed
+  if (mousePressed) {
+    randomizeArray();
+  }
   
 }
+
+void randomizeArray() {
+    for(int i = 0; i < dog.length; i++){    
+    dog[i] = (int) random(height);
+  }
+  
+}
+
 
 void stepSort(int[] arr) {
   for (int i = 1; i < arr.length; i++) {
