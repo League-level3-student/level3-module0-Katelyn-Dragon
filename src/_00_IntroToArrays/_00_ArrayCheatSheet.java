@@ -13,7 +13,6 @@ public class _00_ArrayCheatSheet {
 		five[4] = "e";
 		// 2. print the third element in the array
 		System.out.println(five[2]);
-		// 3. set the third element to a different value
 		five[2] = "x";
 		// 4. print the third element again
 		System.out.println(five[2]);
