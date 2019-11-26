@@ -10,16 +10,14 @@ public class MoreArrayFun {
 	
 	
 	//2. Write a method that takes an array of Strings and prints all the Strings in the array.
-	public static () {
-		
+	public static (String[] arr) {
+		System.out.println(arr);
 	}
-	
-	
 	//3. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in reverse order.
-	
-	
-	
+	public static (String[] two) {
+		
+	}
 	//4. Write a method that takes an array of Strings and prints every other String in the array.
 	
 	
