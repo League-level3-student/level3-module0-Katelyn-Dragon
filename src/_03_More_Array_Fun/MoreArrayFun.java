@@ -7,6 +7,8 @@ public class MoreArrayFun {
 	public static void main(String[] args) {
 	String[] arr = {"hi"};
 	printArray(arr);
+	String[] two = {"hello", "hey"};
+	printArray(two);
 	}
 	
 	
@@ -19,7 +21,9 @@ public class MoreArrayFun {
 	//3. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in reverse order.
 	public static void Reverse (String[] two) {
-		
+		for (int i = 1; i < two.length-1; i++) {
+			System.out.println(i);
+		}
 	}
 	//4. Write a method that takes an array of Strings and prints every other String in the array.
 	
