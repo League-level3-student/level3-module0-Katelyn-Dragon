@@ -7,8 +7,12 @@ public class MoreArrayFun {
 	public static void main(String[] args) {
 	String[] arr = {"hi"};
 	printArray(arr);
-	String[] two = {"hello", "hey"};
-	printArray(two);
+	String[] two = {"one","two", "three"};
+	Reverse(two);
+	String[] rinds = {"pork rinds", "candy", "chips", "popcorn"};
+	Other(rinds);
+	String[] order = {"addition", "subtraction", "multiplication", "division"};
+	Random(order);
 	}
 	
 	
@@ -21,15 +25,23 @@ public class MoreArrayFun {
 	//3. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in reverse order.
 	public static void Reverse (String[] two) {
-		for (int i = 1; i < two.length-1; i++) {
-			System.out.println(i);
+		for (int i = two.length-1; i >= 0; i--) {
+			System.out.println(two[i]);
 		}
 	}
 	//4. Write a method that takes an array of Strings and prints every other String in the array.
-	
+	public static void Other (String[] rinds) {
+		for (int i = 0; i < rinds.length; i++) {
+			if (i % 2 == 0) {
+				System.out.println(rinds[i]);
+			}
+		}
+	}
 	
 	//5. Write a method that takes an array of Strings and prints all the Strings in the array
 	//   in a completely random order. Almost every run of the program should result in a different order.
-	
+	public static void Random (String[] order) {
+		
+	}
 	
 }
